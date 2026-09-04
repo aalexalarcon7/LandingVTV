@@ -1,7 +1,7 @@
 export default function CompanySections() {
   return (
     <>
-      <section id="servicios" className="max-w-6xl mx-auto px-6 py-20">
+      <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="text-blue-600 font-medium mb-3">
@@ -39,7 +39,7 @@ export default function CompanySections() {
         </div>
       </section>
 
-      <section id="contacto" className="max-w-6xl mx-auto px-6 pb-20">
+      <section className="max-w-6xl mx-auto px-6 pb-20">
         <div className="bg-white rounded-3xl p-10 shadow-sm text-center">
           <h2 className="text-3xl font-bold text-slate-900">
             Encontranos
@@ -51,9 +51,7 @@ export default function CompanySections() {
           </p>
 
           <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.google.com/maps/search/?api=1&query=VTV+Hip%C3%B3lito+Yrigoyen+Misiones"
+            href="https://maps.google.com"
             className="inline-block mt-6 text-blue-600 font-medium"
           >
             Ver ubicación en Google Maps →

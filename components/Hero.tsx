@@ -4,7 +4,7 @@ import { ArrowRight, MapPin, Clock, Phone } from "lucide-react";
 export default function Hero() {
   return (
     <>
-      <section id="inicio" className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-blue-600 font-medium mb-4">
             Verificación Técnica Vehicular
